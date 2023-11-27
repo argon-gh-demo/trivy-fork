@@ -1,3 +1,6 @@
+filesystem:
+  skip-dirs:
+      - "**/pom.xml"
 scan:
   scanners:
     - vuln

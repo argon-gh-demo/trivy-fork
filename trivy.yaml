@@ -1,8 +1,5 @@
-filesystem:
-  skip-dirs:
-      - "**/pom.xml"
 scan:
   scanners:
     - vuln
-vulnerability:
-  ignore-unfixed: true
+  skip-dirs:
+      - "**/pom.xml"
